@@ -1,0 +1,79 @@
+{
+ "Solver": "clingo version 5.4.0",
+ "Input": [
+  "creek.lp.sol",
+  "instances/ex19.lp"
+ ],
+ "Call": [
+  {
+   "Witnesses": [
+    {
+     "Value": [
+      "black(1,1)",
+      "black(1,5)",
+      "black(1,6)",
+      "black(1,8)",
+      "black(1,9)",
+      "black(2,1)",
+      "black(2,2)",
+      "black(2,3)",
+      "black(2,5)",
+      "black(2,6)",
+      "black(3,5)",
+      "black(3,6)",
+      "black(3,7)",
+      "black(3,9)",
+      "black(4,2)",
+      "black(4,3)",
+      "black(4,5)",
+      "black(4,9)",
+      "black(5,2)",
+      "black(5,5)",
+      "black(5,7)",
+      "black(5,8)",
+      "black(5,9)",
+      "black(6,1)",
+      "black(6,2)",
+      "black(6,4)",
+      "black(6,5)",
+      "black(6,7)",
+      "black(6,8)",
+      "black(6,9)",
+      "black(7,1)",
+      "black(7,2)",
+      "black(7,7)",
+      "black(7,8)",
+      "black(8,2)",
+      "black(8,3)",
+      "black(8,5)",
+      "black(8,8)",
+      "black(8,9)",
+      "black(8,10)",
+      "black(9,5)",
+      "black(9,6)",
+      "black(9,9)",
+      "black(10,1)",
+      "black(10,2)",
+      "black(10,3)",
+      "black(10,4)",
+      "black(10,5)",
+      "black(10,6)"
+     ]
+    }
+   ]
+  }
+ ],
+ "Result": "SATISFIABLE",
+ "Models": {
+  "Number": 1,
+  "More": "no"
+ },
+ "Calls": 1,
+ "Time": {
+  "Total": 0.004,
+  "Solve": 0.001,
+  "Model": 0.001,
+  "Unsat": 0.0,
+  "CPU": 0.004
+ }
+}

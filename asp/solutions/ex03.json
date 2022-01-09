@@ -1,0 +1,49 @@
+{
+ "Solver": "clingo version 5.4.0",
+ "Input": [
+  "creek.lp.sol",
+  "instances/ex03.lp"
+ ],
+ "Call": [
+  {
+   "Witnesses": [
+    {
+     "Value": [
+      "black(1,4)",
+      "black(2,2)",
+      "black(3,2)",
+      "black(3,3)",
+      "black(3,4)",
+      "black(4,3)",
+      "black(4,4)"
+     ]
+    },
+    {
+     "Value": [
+      "black(1,4)",
+      "black(2,2)",
+      "black(3,2)",
+      "black(3,3)",
+      "black(3,4)",
+      "black(4,2)",
+      "black(4,3)",
+      "black(4,4)"
+     ]
+    }
+   ]
+  }
+ ],
+ "Result": "SATISFIABLE",
+ "Models": {
+  "Number": 2,
+  "More": "no"
+ },
+ "Calls": 1,
+ "Time": {
+  "Total": 0.004,
+  "Solve": 0.0,
+  "Model": 0.0,
+  "Unsat": 0.0,
+  "CPU": 0.004
+ }
+}
